@@ -1,0 +1,27 @@
+ bài 22: Web Form Tổ chức các control và sử dụng một số HTML5 Control
+
+ <form name="f1" action="" method="get">
+    <fieldset>
+        <legend>Account</legend>
+        <label for="txtUr" >username</lable>
+        <input type="text" id="txtUr"/><br/>
+        <label for="txtPwd">password</lable>
+        <input type="password" id="txtPwd"/><br/>
+    </fieldset>
+    <fieldset>
+        <legend>personal</legend>
+        <label for="lastN">họ</lable>
+        <input type="text" id="lastN"/><br/><br/>
+        <label for="firsN">tên</lable>
+        <input type="text" id="firsN"/><br/>
+        
+        <input type="radio" id="male" value="nam"
+        checked />
+        <label for="male">nam</lable>
+        <input type="radio" id="female" value="nữ"/>
+        <label for="female">nữ</lable>
+    </fieldset>
+    <input type="submit" id="btnsubmit" value="submit"/>
+
+</form>
+
